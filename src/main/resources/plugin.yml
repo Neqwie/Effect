@@ -1,0 +1,9 @@
+name: Test
+version: 1.0
+main: ru.main.test.main
+api-version: 1.17
+commands:
+  newpaper:
+    description: idi naxer
+    usage: '/tel'
+    permission: test.cmd
