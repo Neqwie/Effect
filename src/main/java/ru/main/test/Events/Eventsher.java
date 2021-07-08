@@ -15,7 +15,7 @@ public class Eventsher implements Listener {
     public boolean DeathParticle(EntityDeathEvent deth){
         Location lock = deth.getEntity().getEyeLocation();
         World mir = deth.getEntity().getWorld();
-        mir.spawnParticle(Particle.DRAGON_BREATH,lock, 35);
+        mir.spawnParticle(Particle.ENCHANTMENT_TABLE,lock,  75);
         return true;
     }
 
